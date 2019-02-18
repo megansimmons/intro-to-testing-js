@@ -14,14 +14,20 @@ function helloWorld() {
 //     } else {
 //         return "Hello, Jane!";
 //     }
-// }
+//  }
 
 function sayHello(input) {
-    return "Hello, " + input + "!";
-}
 
+        return "Hello, " + input + "!";
+}
+//
 //All of these keep the tests green...
 sayHello("Megan");
 sayHello("7");
 sayHello(7);
 sayHello(true);
+sayHello("Jane");
+
+function isFive(input) {
+    return +input === 5;
+}
