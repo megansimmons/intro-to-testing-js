@@ -31,3 +31,7 @@ sayHello("Jane");
 function isFive(input) {
     return +input === 5;
 }
+
+function isEven(input) {
+    return input % 2 === 0;
+}
